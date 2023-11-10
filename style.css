@@ -1,0 +1,293 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #40514e;
+  text-align: center;
+  scrollbar-width: 0px;
+  background-color: #eaf6f6;
+}
+body::-webkit-scrollbar {
+  display: none !important;
+}
+p {
+  line-height: 1.75;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  color: #66bfbf;
+  margin: -180px 121px -160px 120px;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+}
+
+h2 {
+  color: #66bfbf;
+  font-size: 2rem;
+  font-weight: normal;
+  font-family: "Tahoma";
+}
+h3 {
+  font-size: 1.75rem;
+  text-decoration: underline;
+  color: #11999e;
+  font-family: "Montserrat";
+}
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.ban {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 27px;
+  z-index: -3;
+  backdrop-filter: blur(5px);
+}
+
+.tag {
+  margin-top: 150px;
+}
+.name {
+  position: absolute;
+  display: contents;
+  justify-content: center;
+}
+.me {
+  align-items: center;
+  text-align: center;
+}
+.top-con {
+  background-color: #eaf6f6;
+  border: solid 10%;
+}
+
+.mid-con {
+  margin: 100px 0;
+  padding-top: 100px;
+}
+
+hr {
+  border: dotted #66bfbf 5px;
+  border-bottom: none;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+.bot-con a {
+  font-size: 1.85em;
+  color: #11999e;
+}
+
+.top-cloud {
+  float: left;
+  position: absolute;
+  top: 300px;
+  left: 60px;
+  margin-left: 65px;
+  z-index: -1;
+}
+.bottom-cloud {
+  position: absolute;
+  margin: -120px 224px;
+}
+.birds {
+  position: relative;
+  z-index: 1;
+}
+
+.moun {
+  margin: -188px;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  margin: 10px 40px;
+  text-decoration: none;
+}
+
+ul {
+  font-size: 1.5rem;
+  top: 30px;
+  display: flex;
+  position: absolute;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #40514e;
+
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #11999e;
+}
+.bot-con a:hover {
+  color: #66bfbf;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+.tag img {
+  position: relative;
+  display: inline;
+  top: 45px;
+}
+
+.profile img {
+  height: 200px;
+}
+.intro {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+.con {
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.skill-row {
+  margin: 50px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.web-dev {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+
+.java {
+  width: 30%;
+  float: right;
+  margin-left: 30px;
+}
+
+.and-dev {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.cv {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pro {
+  width: 50%;
+  text-align: center;
+  height: 50%;
+  display: inline-block;
+  margin: 45px auto;
+  right: 320px;
+}
+
+.copy {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-pic {
+  position: relative;
+  text-align: center;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.love {
+  color: #d33333;
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 480px) {
+  p {
+    font-size: xx-large;
+  }
+  .skill-row,
+  .intro {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  p {
+    font-size: 1rem;
+  }
+  .skill-row,
+  .intro {
+    width: 50%;
+  }
+}
+
+.top-con,
+body {
+  background-color: #312244;
+  color: #40514e;
+}
+ul li a {
+  color: #eaf6f6;
+}
+h4,
+p b {
+  color: #eaf6f6;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  .top-con,
+  body {
+    background-color: #eaf6f6;
+    color: black;
+  }
+
+  ul li a,
+  p b {
+    color: #312244;
+  }
+}
